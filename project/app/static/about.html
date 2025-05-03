@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Us - Southern spices</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #d3d9b9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #290c3d;
+      color: white;
+      text-align: center;
+      padding: 50px 20px 30px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 10px;
+    }
+
+    .content {
+      flex: 1;
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .content h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #111;
+    }
+
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .about-text {
+      text-align: justify;
+      font-size: 1rem;
+      max-width: 800px;
+      margin-bottom: 30px;
+    }
+
+    .about-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #f8f9fa;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    @media (min-width: 768px) {
+      .about-container {
+        flex-direction: row;
+        gap: 40px;
+        justify-content: space-between;
+      }
+
+      .about-text {
+        flex: 1;
+      }
+
+      .about-image {
+        flex: 1;
+        max-width: 400px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>RICHNESS OF SPICES</h1>
+    <p>"Food is our common ground, a universal experience." – James Beard</p>
+  </header>
+
+  <div class="content">
+    <h2>About us</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <p>
+            At Southern Spices, we believe food is more than just sustenance—it's a way of preserving tradition and bringing people together. Inspired by the rich culinary heritage of South India, our restaurant is a celebration of authentic flavors, time-honored recipes, and the vibrant culture behind every dish.
+        </p>
+        <p>
+            Our journey began in a modest kitchen, where family recipes were passed down through generations. With a deep love for cooking and a dream to share our roots with the world, Southern Spices was born. What started as a small eatery quickly became a cherished space for those seeking warmth, comfort, and unforgettable taste.
+        </p>
+        <p>
+            Today, we take pride in offering a menu that reflects both tradition and creativity. Every meal is crafted with handpicked spices and fresh ingredients, staying true to our heritage while embracing a modern dining experience. Whether you're here for a quick bite or a family feast, you're always part of our story.
+
+
+        </p>
+      </div>
+      <img src="about.png" alt="Southern spices" class="about-image"/>
+    </div>
+  </div>
+
+  <footer>
+    Devoloped by Sanjana J 
+  </footer>
+
+</body>
+</html>

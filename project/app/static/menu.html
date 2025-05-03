@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Menu - Dindigul Thalappakatti</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #d3d9b9;
+      color: #000;
+    }
+
+    header {
+      background-color: #290c3d;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      padding-left: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 2rem;
+      font-size: 1.1rem;
+    }
+
+    .tagline {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      margin: 2rem 0 1rem 0;
+    }
+
+    h2 {
+      text-align: center;
+      color: #fff;
+      background-color: #290c3d;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      background-color: #290c3d;
+    }
+
+    .gallery-item {
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .gallery-item p {
+      margin: 10px;
+      font-weight: 500;
+    }
+
+    @media (max-width: 600px) {
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Southern Spices</h1>
+    <nav>
+      <a href="home.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+  </header>
+
+  <div class="tagline">
+    South India's Taste.
+  </div>
+
+  <!-- Starters -->
+  <h2>Starters</h2>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="medhu vada.png" alt="Medhu vada" />
+      <p>Medhu Vada</p>
+    </div>
+    <div class="gallery-item">
+      <img src="sambar vada.png" alt="Sambar vada" />
+      <p>Sambar vada</p>
+    </div>
+    <div class="gallery-item">
+      <img src="pakoda.png" alt="Vegetable pakoda" />
+      <p>Vegetable pakoda</p>
+    </div>
+    <div class="gallery-item">
+        <img src="mysore bonda.png" alt="Mysore Bonda" />
+        <p>Mysore Bonda</p>
+      </div>
+  </div>
+
+  <!-- Main course -->
+  <h2>Main course</h2>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="noodles.png" alt="Noodles" />
+      <p>Noodles</p>
+    </div>
+    
+    <div class="gallery-item">
+      <img src="biriyani.png" alt="Chettinadu chicken biriyani" />
+      <p>Chettinadu chicken biriyani</p>
+    </div>
+    <div class="gallery-item">
+        <img src="fried rice.png" alt="Fried Rice" />
+        <p>Fried Rice</p>
+    </div>
+    <div class="gallery-item">
+        <img src="kothu parotta.png" alt="Kothu parotta" />
+        <p>Kothu parotta</p>
+    </div>
+  </div>
+
+  <!-- Rice & Sides -->
+  <h2>Rice&Sides</h2>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="lemon.png" alt="Lemon rice" />
+      <p>Lemon rice</p>
+    </div>
+    <div class="gallery-item">
+      <img src="curd.png" alt="Curd rice" />
+      <p>Curd rice</p>
+    </div>
+    <div class="gallery-item">
+      <img src="tomato.png" alt="Tomato rice" />
+      <p>Tomato rice</p>
+    </div>
+  </div>
+
+  <!-- Gravy -->
+  <h2>Gravy</h2>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="chicken gravy.png" alt="Chicken gravy" />
+      <p>Chicken gravy</p>
+    </div>
+    <div class="gallery-item">
+      <img src="chilli prawns.png" alt="Chilli Prawns" />
+      <p>Chilli Prawns</p>
+    </div>
+    <div class="gallery-item">
+      <img src="panner gravy.png" alt="panner gravy" />
+      <p>Panner gravy</p>
+    </div>
+  </div>
+
+  <!-- Desserts -->
+  <h2>Desserts</h2>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="gulab jamun.png" alt="Gulab jamun" />
+      <p>Gulab jamun</p>
+    </div>
+    <div class="gallery-item">
+      <img src="bread halwa.png" alt="Bread halwa" />
+      <p>Bread halwa</p>
+    </div>
+    <div class="gallery-item">
+      <img src="pudding.png" alt="Tender coconut pudding" />
+      <p>Tender coconut pudding</p>
+    </div>
+  </div>
+
+  <!-- Beverages -->
+  <h2>Beverages</h2>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="coffee.png" alt="Filter coffee" />
+      <p>Blue Lime</p>
+    </div>
+    <div class="gallery-item">
+      <img src="lemonjuice.png" alt="Lemon Juice" />
+      <p>Fresh lemon Juice</p>
+    </div>
+    <div class="gallery-item">
+      <img src="coke.png" alt="Coke" />
+      <p>Coke</p>
+    </div>
+  </div>
+</body>
+</html>
